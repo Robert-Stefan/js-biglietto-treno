@@ -1,8 +1,30 @@
-body {
-    font-family: 'Ranchers', cursive;
-    font-size: 25px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-container {
-    
+body {
+    font-family: 'Henny Penny', cursive;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.full-section .content {
+    position: absolute;
+    top: 55%;
+    left: 73%;
+    transform: translate(-15%, -90%);
+    color: #bed7d6;
+    text-align: center;
+}
+
+.full-section {
+    position: relative;
+    background-image: url('./img/treno.PNG');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
 }
